@@ -18,7 +18,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-const authRoutes = require("./routes/auth");
+const authRoutes = require("./auth");
 
 const mongoURI = "mongodb+srv://monushaw580:Monu7980156406@voterdb.hoficdk.mongodb.net/votingDB?retryWrites=true&w=majority";
 
